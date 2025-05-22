@@ -1,0 +1,156 @@
+{
+  "competition": {
+    "title": "数学竞赛辅导 - AMC 系列",
+    "description": "我们提供全面的小班和一对一 AMC 8、AMC 10 和 AMC 12 辅导：",
+    "courses": [
+      {
+        "key": "8",
+        "title": "AMC 8",
+        "desc": "适合 8 年级及以下学生，覆盖基础代数、几何与数论。通过强化练习和真题解析，打牢数学竞赛基础。",
+        "duration": "10 周，每周 2 小时",
+        "groupPrice": 30,
+        "oneOnOnePrice": 85
+      },
+      {
+        "key": "10",
+        "title": "AMC 10",
+        "desc": "面向 10 年级及以下学生，内容包含更高阶的代数、几何、组合与概率。通过系统讲解和模拟考试，提高解题能力。",
+        "duration": "10 周，每周 3 小时",
+        "groupPrice": 33,
+        "oneOnOnePrice": 90
+      },
+      {
+        "key": "12",
+        "title": "AMC 12",
+        "desc": "针对 12 年级及以下学生，深入讲解高级代数、几何、组合与微积分预备知识。结合真题分析和技巧指导，助力高分。",
+        "duration": "10 周，每周 3 小时",
+        "groupPrice": 35,
+        "oneOnOnePrice": 100
+      }
+    ]
+  },
+  "standardized": {
+    "title": "标准化考试数学辅导",
+    "description": "专注于 SAT 和 ACT 考试的数学部分，提供代数、几何、数据分析等核心知识点的专项提升课程。",
+    "courses": [
+      {
+        "key": "SAT",
+        "title": "SAT 数学",
+        "desc": "涵盖代数、函数、几何与数据分析题型，强化解题思维和技巧。",
+        "duration": "12 周，每周 3 小时",
+        "groupPrice": 35,
+        "oneOnOnePrice": 95
+      },
+      {
+        "key": "ACT",
+        "title": "ACT 数学",
+        "desc": "包括预代数、代数 I/II、几何与三角；通过习题演练和时间管理训练，提升应试效率。",
+        "duration": "10 周，每周 3 小时",
+        "groupPrice": 35,
+        "oneOnOnePrice": 95
+      }
+    ]
+  },
+  "courses": {
+    "title": "校本数学课程辅导",
+    "description": "基于美国常规课程体系，从 Pre-Algebra 到 AP Calculus，系统提升学生学术能力。",
+    "courses": [
+      {
+        "key": "PreAlgebra",
+        "title": "Pre-Algebra",
+        "desc": "整数与分数巩固、比例、基础方程；为代数学习打好基础。",
+        "duration": "学年制，每周 1.5 小时",
+        "groupPrice": 30,
+        "oneOnOnePrice": 90
+      },
+      {
+        "key": "Math1",
+        "title": "Math 1",
+        "desc": "数字与运算：整数、小数、分数、百分比的初步学习与应用。",
+        "duration": "学年制，每周 1.5 小时",
+        "groupPrice": 30,
+        "oneOnOnePrice": 90
+      },
+      {
+        "key": "Math2",
+        "title": "Math 2",
+        "desc": "代数基础：表达式、方程和不等式的引入与解法。",
+        "duration": "学年制，每周 1.5 小时",
+        "groupPrice": 30,
+        "oneOnOnePrice": 90
+      },
+      {
+        "key": "Math3",
+        "title": "Math 3",
+        "desc": "函数与比例：线性函数、比例、百分数与数据分析。",
+        "duration": "学年制，每周 1.5 小时",
+        "groupPrice": 30,
+        "oneOnOnePrice": 90
+      },
+      {
+        "key": "Math4",
+        "title": "Math 4",
+        "desc": "几何初步：平面几何、面积与周长、基本图形性质。",
+        "duration": "学年制，每周 2 小时",
+        "groupPrice": 32,
+        "oneOnOnePrice": 90
+      },
+      {
+        "key": "Math5",
+        "title": "Math 5",
+        "desc": "进阶几何：三角形、四边形与圆的性质；简单三角函数。",
+        "duration": "学年制，每周 2 小时",
+        "groupPrice": 32,
+        "oneOnOnePrice": 95
+      },
+      {
+        "key": "Math6",
+        "title": "Math 6",
+        "desc": "统计与概率：数据表示、平均数、中位数、概率基础。",
+        "duration": "学年制，每周 2 小时",
+        "groupPrice": 32,
+        "oneOnOnePrice": 95
+      },
+      {
+        "key": "AlgebraI",
+        "title": "Algebra I",
+        "desc": "线性方程、函数与图像、不等式及其实际应用。",
+        "duration": "学年制，每周 2.5 小时",
+        "groupPrice": 32,
+        "oneOnOnePrice": 95
+      },
+      {
+        "key": "Geometry",
+        "title": "Geometry",
+        "desc": "欧氏几何，包含证明、相似与全等、圆与三角形深入学习。",
+        "duration": "学年制，每周 2.5 小时",
+        "groupPrice": 32,
+        "oneOnOnePrice": 95
+      },
+      {
+        "key": "AlgebraII",
+        "title": "Algebra II",
+        "desc": "二次函数、指数与对数、复合函数及应用。",
+        "duration": "学年制，每周 2.5 小时",
+        "groupPrice": 32,
+        "oneOnOnePrice": 95
+      },
+      {
+        "key": "Precalculus",
+        "title": "Precalculus",
+        "desc": "三角函数、极限概念、序列与级数，为微积分打基础。",
+        "duration": "学年制，每周 3 小时",
+        "groupPrice": 33,
+        "oneOnOnePrice": 95
+      },
+      {
+        "key": "APCalculus",
+        "title": "AP Calculus",
+        "desc": "微积分深入：导数、积分与应用；为高阶课程与考试（如 AP、IB）做准备。",
+        "duration": "学期制，每周 3.5 小时",
+        "groupPrice": 35,
+        "oneOnOnePrice": 100
+      }
+    ]
+  }
+}

@@ -16,7 +16,7 @@ const menuItems = [
     children: [
       { key: 'math-competition', label: <Link href="/math/competition">竞赛</Link> },
       { key: 'math-standardized', label: <Link href="/math/standardized">标化</Link> },
-      { key: 'math-tuition', label: <Link href="/math/tuition">课程辅导</Link> },
+      { key: 'math-courses', label: <Link href="/math/courses">课程辅导</Link> },
     ],
   },
   {
@@ -33,13 +33,17 @@ const menuItems = [
     icon: <ExperimentOutlined />,
     label: '科学',
     children: [
-      { key: 'science-tuition', label: <Link href="/science/tuition">课程辅导</Link> },
+      { key: 'science-courses', label: <Link href="/science/courses">课程辅导</Link> },
     ],
   },
   {
     key: 'contact',
     label: <Link href="/contact">联系我们</Link>,
   },
+  {
+    key: 'faq',
+    label: <Link href="/faq">常见问题回答</Link>,
+  }
 ];
 
 export default function Navbar() {

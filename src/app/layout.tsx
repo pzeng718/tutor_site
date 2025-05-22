@@ -4,6 +4,7 @@ import 'antd/dist/reset.css';
 import React from 'react';
 import { Layout as AntLayout } from 'antd';
 import Navbar from './components/navbar';
+import './globals.css'
 
 const { Header, Content, Footer } = AntLayout;
 
