@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Content style={{ margin: '24px 16px 0' }}>
             <div style={{ padding: 24, background: '#fff' }}>{children}</div>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>©2025 Tutor Agency</Footer>
+          <Footer style={{ textAlign: 'center' }}>©2025 Spark Ed</Footer>
         </AntLayout>
       </body>
     </html>

@@ -88,6 +88,9 @@ a {
   font-size: 0.95rem;
   line-height: 1.4;
 }
+.service-card, .hero, .why-choose ul li {
+  background: #fff !important;
+}
 
 /* Why Choose Us */
 .why-choose {

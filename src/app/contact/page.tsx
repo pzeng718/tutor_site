@@ -18,10 +18,10 @@ export default function ContactPage() {
         </div>
       </Card>
       <Typography.Paragraph>
-        <strong>电话：</strong>+1 (617) 449-8158 (同微信)
+        <strong>电话：</strong>+1 (917) 332-6513 (同微信)
       </Typography.Paragraph>
       <Typography.Paragraph>
-        <strong>邮箱：</strong>info@tutoragency.com
+        <strong>邮箱：</strong>contact4sparked@gmail.com
       </Typography.Paragraph>
     </div>
   );
