@@ -27,23 +27,23 @@ const menuItems = [
       { key: 'math-courses', label: <Link href="/math/courses">课程辅导</Link> },
     ],
   },
-  {
-    key: 'english',
-    icon: <ReadOutlined />,
-    label: '英语',
-    children: [
-      { key: 'english-reading', label: <Link href="/english/reading">阅读</Link> },
-      { key: 'english-writing', label: <Link href="/english/writing">写作</Link> },
-    ],
-  },
-  {
-    key: 'science',
-    icon: <ExperimentOutlined />,
-    label: '科学',
-    children: [
-      { key: 'science-courses', label: <Link href="/science/courses">课程辅导</Link> },
-    ],
-  },
+  // {
+  //   key: 'english',
+  //   icon: <ReadOutlined />,
+  //   label: '英语',
+  //   children: [
+  //     { key: 'english-reading', label: <Link href="/english/reading">阅读</Link> },
+  //     { key: 'english-writing', label: <Link href="/english/writing">写作</Link> },
+  //   ],
+  // },
+  // {
+  //   key: 'science',
+  //   icon: <ExperimentOutlined />,
+  //   label: '科学',
+  //   children: [
+  //     { key: 'science-courses', label: <Link href="/science/courses">课程辅导</Link> },
+  //   ],
+  // },
   {
     key: 'contact',
     label: <Link href="/contact">联系我们</Link>,

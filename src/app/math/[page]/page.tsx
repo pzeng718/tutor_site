@@ -10,9 +10,11 @@ type Course = {
   key: string;
   title: string;
   desc: string;
-  duration: string;
+  groupDuration: string;
   groupPrice: number;
   oneOnOnePrice: number;
+  oneOnOneDuration: string;
+  hasGroup: boolean;
 };
 type PageData = {
   title: string;
@@ -56,13 +58,20 @@ export default function MathPage() {
             <Card title={svc.title} bordered hoverable>
               <Paragraph>{svc.desc}</Paragraph>
               <Paragraph>
-                <strong>课程时长：</strong>
-                {svc.duration}
-                <br />
-                <strong>小班价格：</strong>${svc.groupPrice}
-                <br />
-                <strong>一对一价格：</strong>${svc.oneOnOnePrice}
-              </Paragraph>
+              {svc.hasGroup && (
+                <>
+                  <strong>小班频率和时长：</strong>
+                  {svc.groupDuration}
+                  <br />
+                  <strong>小班价格：</strong>${svc.groupPrice}
+                  <br />
+                </>
+              )}
+              <strong>一对一频率和时长：</strong>
+              {svc.oneOnOneDuration}
+              <br />
+              <strong>一对一价格：</strong>${svc.oneOnOnePrice}
+            </Paragraph>
             </Card>
           </Col>
         ))}
